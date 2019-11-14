@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fonts/css/all.css">
+
+    <!-- Custom CSS -->
+    <style>
+        .fonctionality{
+            text-align: center;
+        }
+
+        .fonctionality i.fa{
+            color: hsl(210, 100%, 50%);
+        }
+
+        .fonctionality:hover{
+            border-radius: 0;
+            box-shadow: 0 2px 6px #c0c0c0, 0 0 6px #c0c0c0;
+            transition: box-shadow ease-in 350ms;
+        }
+
+        .fonctionality:hover > div{
+            border-radius: 0;
+        }
+        .container{
+            margin-top: 50px;
+        }
+         nav.navigation-bar{
+             box-shadow: 0 0 2px #e0e0e0, 0 0 3px #e0e0e0;
+         }
+        nav.navigation-bar>li{
+            padding: 10px;
+        }
+    </style>
+
+    <title>com-manager-template | Home</title>
+</head>
+<body>
+<nav class="nav justify-content-center navigation-bar">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Bienvenue <strong> M. l'Officier d'Etat Civil</strong></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-user fa-1x"></i> M. OEC</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> Date: <span class="date">Lun 18 Jan 2019</span> | Hour <span class="hour">11:00:00</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-power-off fa-1x"></i> Se déconnecter</a>
+        </li>
+</nav>
+<div class="container d-flex flex-column align-items-center">
+    <div class="col-md-12 spec-fonction">
+
+        <div class="row">
+            <div class="col-sm-3 m-0 m-auto fonctionality">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa fa-user-plus fa-3x "></i></h5>
+                        <p class="card-text">Enregistrer un citoyen dans la base de données de la commune</p>
+                        <a href="#1" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-0 m-auto fonctionality">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa fa-id-card fa-3x "></i></h5>
+                        <p class="card-text">Etablir l'acte de naissance, l'acte de marriage, le certificat de domiciliation</p>
+                        <a href="#2" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-0 m-auto fonctionality">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa fa-search fa-3x "></i></h5>
+                        <p class="card-text">Rechercher un citoyen particulier en spécifiant les critères de la recherche</p>
+                        <a href="#3" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-0 m-auto fonctionality">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa fa-th-list fa-3x "></i></h5>
+                        <p class="card-text">consulter la liste des personnes en âge de voté,la liste des ...</p>
+                        <a href="#4" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-sm-3 m-0 m-auto fonctionality">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa fa-percent fa-3x "></i></h5>
+                        <p class="card-text">Statistique portant sur le taux de natalité,le taux d'accroissement naturel,...</p>
+                        <a href="#5" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-0 m-auto fonctionality">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa fa-globe-africa fa-3x "></i></h5>
+                        <p class="card-text">Vue spatiale des différentes statistiques de la commune, ... </p>
+                        <a href="#6" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-0 m-auto fonctionality">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa fa-tree fa-3x "></i></h5>
+                        <p class="card-text">Etablir l'arbre généalogique d'un citoyen, générer un document ...</p>
+                        <a href="#7" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 m-0 m-auto fonctionality">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa fa-cloud fa-3x "></i></h5>
+                        <p class="card-text">Atteindre les documents archivés de la commune sur le Serveur Cloud</p>
+                        <a href="#8" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+    var specFonction = document.querySelector('.spec-fonction');
+    specFonction.addEventListener('click',function(e){
+        var link = null;
+        if(e.target.classList.contains('fonctionality')){
+            var el = e.target;
+            link = el.firstElementChild.firstElementChild.lastElementChild;
+
+        }else{
+            if( e.target.classList.contains('card-body') ){
+                var el = e.target;
+                link = el.lastElementChild;
+            }else{
+                if( e.target.classList.contains('card-text') ){
+                    var el = e.target;
+                    link = el.nextElementSibling;
+                }else{
+                    if( e.target.classList.contains('fa') ){
+                        var el = e.target;
+                        link = el.parentElement.nextElementSibling.nextElementSibling;
+                    }
+                }
+            }
+        }
+        window.location.replace(""+link.href+"");
+    });
+</script>
+</html>
